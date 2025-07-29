@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+<form action="#">
+<label for="nomeUsuario">Nome:</label> <br>
+<input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Dica de preenchimento"><br>
+
+<label for="emailUsuario">Email:</label><br>
+<input type="email" id="emailUsuario" name="email"><br>
+
+<label for="numeroUsuario">Numero:</label><br>
+<input type="number" id="numeroUsuario"><br>
+
+<label for="senhaUsuario">Senha:</label><br>
+<input type="password" id="senhaUsuario"><br>
+
+<label for="nascimento">Data de Nascimento:</label><br>
+<input type="date" id="nascimento"><br>
+
+<label for="corFavorita">Cor Favorita:</label><br>
+<input type="color" id="corFavorita"><br>
+
+<label for="curriculo">Curriculo:</label><br>
+<input type="file" id="curriculo" accept="application/pdf" name="curriculo"><br>
+
+<label for="message">Mensagem:</label><br>
+<textarea id="message" name="message" rows="4"></textarea> <br>
+
+<label for="sexo">Selecione seu sexo:</label><br>
+<input type="radio" id="masculino" name="sexo" value="masculino">
+<label for="masculino">Masculino</label>
+
+<input type="radio" id="feminino" name="sexo" value="feminino">
+<label for="feminino">Feminino</label>
+
+<input type="radio" id="outro" name="sexo" value="outro">
+<label for="outro">Outro</label> <br>
+<br>
+
+<label for="turno">Selecione seu turno:</label><br>
+
+<input type="radio" id="manha" name="turno" value="manha">
+<label for="manha">Manhã</label>
+
+<input type="radio" id="tarde" name="turno" value="tarde">
+<label for="tarde">Tarde</label>
+
+<input type="radio" id="noite" name="turno" value="noite">
+<label for="noite">Noite</label> <br>
+<br>
+
+<label for=""> Linguagens: </label>
+<br>
+
+<input type="checkbox" id="html" name="linguagens"
+value="html">
+<label for="html">HTML</label>
+
+<input type="checkbox" id="css" name="linguagens"
+value="css">
+<label for="css"> CSS </label>
+
+<input type="checkbox" id="javascript" name="linguagens"
+value="javascript">
+<label for="javascript"> Java Script </label> <br>
+
+<br>
+
+<label for=""> Digite sua reclamação: </label>
+<br>
+
+<textarea name="reclamacao" id="reclamacao" 
+cols="30" rows="5" maxlength="127"></textarea>
+
+<br>
+<label for="Escolha uma linguagem"> Escolha uma linguagem:</label>
+<br>
+<select name="linguagem" id="linguagem">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js" selected>Javascript</option>
+    <option value="php">PHP</option>
+    <option value="phyton">Phyton</option>
+    <option value="java" disabled>Java</option>
+    <option value="c#">C#</option>
+</select>    
+
+<br>
+<br>
+
+<input type="submit"> <br> 
+<!-- Nao utilizar quando existem campos com validacao exemplo senha que exigem caracteres especiais
+Todos os campos sao apagados ao clicar no botao-->
+
+<br>
+<input type="button" value="Clique aqui para enviar" id="botaoEnviar" onclick="alert('Clicou no botão')"> <br>
+
+<br>
+<button>Clique aqui</button><br>
+
+
+
+</form>
+    
+</body>
+</html>
