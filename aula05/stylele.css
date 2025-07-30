@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+form {
+    background-color: #d9d5d5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    border: 1px solid #999;
+}
+
+button,
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #ccc;
+}

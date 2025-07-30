@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de candidatura</title>
+    <link rel="stylesheet" href="stylele.css">
+</head>
+<body>
+<!--
+    Uma determinada empresa de tecnologia que atua no Ceará deseja criar um 
+    formulário básico que capte algumas informações de interessados em seu processo
+    de seleção.
+
+    Deverá ser escolhido **um cargo** de interesse, dentre :
+
+        - pessoa desenvolvedora
+        - analista de sistemas
+        - administrador(a) de banco de dados
+        - testador(a)
+
+    O candidato só poderá escolher **um gênero ;**
+
+    O candidato poderá assinalar **uma** ou **mais de uma unidade** de interesse;
+
+    Ao final, deverá escrever **um texto mais longo** contendo uma apresentação pessoal.
+
+-->
+
+    <h1>Formulario de candidatura</h1>
+    <br>
+    <br>
+<form action="#">
+<label for="nomeUsuario">Nome:</label> <br>
+<input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Dica de preenchimento"><br>
+
+<br>
+<label for="emailUsuario">Email:</label><br>
+<input type="email" id="emailUsuario" name="email" placeholder="Preencha com seu e-mail"><br>
+<br>
+
+<label for="Escolha um cargo"> Cargo de Tecnologia:</label>
+<select name="cargo" id="cargo">
+    <option value="pessoadesenvolvedora">Pessoa Desenvolvedora</option>
+    <option value="analistadesistemas">Analista de Sistemas</option>
+    <option value="DBA">Administrador(a) de Banco de Dados </option>
+   <option value="testador">Testador(a)</option>
+</select>   
+
+<br>
+<br>
+
+<label for="genero">Gênero:</label>
+<input type="radio" id="masculino" name="genero" value="masculino">
+<label for="masculino">Masculino</label>
+
+<input type="radio" id="feminino" name="genero" value="feminino">
+<label for="feminino">Feminino</label>
+
+<input type="radio" id="outro" name="genero" value="outro">
+<label for="outro">Outro</label> <br>
+<br>
+<br>
+<label for=""> Unidade: </label>
+<br>
+
+<input type="checkbox" id="fortaleza" name="unidade"
+value="fortaleza">
+<label for="fortaleza">FORTALEZA</label>
+
+<input type="checkbox" id="caucaia" name="unidade"
+value="caucaia">
+<label for="caucaia"> CAUCAIA </label> 
+
+<input type="checkbox" id="eusebio" name="unidade"
+value="eusebio">
+<label for="eusebio"> EUSÉBIO </label>
+<br>
+<br>
+<label for="message">Fale mais sobre você:</label><br>
+<textarea id="message" name="message" rows="6"></textarea> <br>
+
+<br>
+
+
+<input type="button" value="Enviar" id="botaoEnviar" onclick="alert('Boa sorte')"> <br>
+
+
+</form>
+    
+</body>
+</html>
