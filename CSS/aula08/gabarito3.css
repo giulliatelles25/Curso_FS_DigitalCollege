@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color:#4B0082;
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    color:#FF6347;
+    font-weight: 800;
+    text-align: left;
+}
+
+.intro{
+    color:#333333;
+    font-weight: 150;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.imagem-principal{
+    margin-bottom:30px;
+    border-left: 20px solid #008080;
+}
+
+.caixa-meme{
+    padding:20px;
+    border: 20px solid #DAA520;
+    margin: 20px;
+}
+
+section{
+    margin-top: 40px;
+    background-color: #b9b2b28c;
+    padding: 20px;
+}

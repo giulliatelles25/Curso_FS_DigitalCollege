@@ -1,0 +1,33 @@
+h1{
+    margin: 40px;
+    background-color: black;
+    color:white
+}
+
+p{
+    padding:20px;
+    border-bottom: 2px solid #FF4500;
+}
+
+h2{
+    border: 2px solid #4682B4;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    /* primeiro valor pra cima e baixo, segundo valor para laterais */
+}
+
+.imagem-pequena{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.imagem-media{
+    margin: 20px;
+    border: 4px solid #888888;
+}
+
+.imagem-grande {
+    padding: 20px;
+    border: 5px solid #0000FF;
+
+}
