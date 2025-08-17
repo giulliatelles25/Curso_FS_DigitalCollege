@@ -16,9 +16,13 @@ h2{
     /* primeiro valor pra cima e baixo, segundo valor para laterais */
 }
 
+img{
+    display: block;
+}
 .imagem-pequena{
     padding: 10px;
     border: 1px solid black;
+    margin: 0px auto;
 }
 
 .imagem-media{
