@@ -1,1 +1,1 @@
-https://github.com/techcomkathia/bootstrap5.git
+https://github.com/giulliatelles25/bootstrap5
